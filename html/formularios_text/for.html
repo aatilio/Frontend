@@ -1,0 +1,60 @@
+<html>
+
+<head>
+    <title>Formularios</title>
+</head>
+
+<body>
+    <h2>Registro de usuario a la empresa Araho</h2>
+    <form action="pagina1.html" method="post">
+        Ingrese su Nombre:
+        <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su nombre correctamente" size="35"><br><br>
+        Ingrese su Apellido:
+        <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese su apellido correctamente" size="35"><br><br>
+        Ingrese su DNI:
+        <input type="text" name="txtDNI" id="txtDNI" placeholder="Ingrese su numero de DNI" maxlength="8"><br><br>
+        <input type="file" name="adjunto"> <br><br>
+        <label>Numero de telefino:</label><br>
+        <input type="text" name="txtcel"placeholder="codigo de confirmacion">
+        <input type="Submit" name="enviar" value="Enviar">
+        <input type="hidden" name="nombres" value="Nombre Ingresado"><br><br>
+        Ingrese su Edad:
+        <input type="text" name="txtEda" id="txtEda" placeholder="Ingrese su edad" maxlength="2"><br><br>
+        <label>Con que alternativa te identificas mas</label><br><br>
+        <input type="radio" name="Instrumentos" value="guitar"> Intrivertido(a) <br>
+        <input type="radio" name="Instrumentos" value="Bater"> Acertivo(a) <br>
+        <input type="radio" name="Instrumentos" value="Piano"> Extrovertido(a)<br><br>
+        Breve descripcion:
+        <textarea name="Comentarios" cols="30" rows="4"></textarea><br><br>
+        <label>Selecciona tu Genero:</label>
+        <select name="genero">
+            <option>Masculino</option>
+            <option>Femenino</option>
+        </select>
+        <br><br>
+        <label>Selecciona tu Estado Civil:</label>
+        <select name="EstCivil">
+            <option>Casado</option>
+            <option>Soltero</option>
+            <option>Divorciado</option>
+            <option>Viudo</option>
+        </select><br><br>
+        <label>Nombre de Usuario:</label><br>
+        <input type="text" name="txtNom"><br><br>
+        Correo Electronico
+        <input type="text" name="txtIml" id="txtIml" placeholder="ejemplo@email.com" maxlength="20"><br><br>
+        Ingrese su Contraseña:
+        <input type="password" name="clave" placeholder="Password, minimo 8 digitos" maxlength="8" size="20"><br><br>
+        <input type="submit" name="btnEnviar" value="Enviar">
+        <input type="reset" name="btnLimpiar" value="Borrar"><br>
+        <input type="Image" name="imgAceptar" src="D:\DESARROLLO DE SISTEMAS DE INFORMACION\CODIGOS\Pajina Web\imagenes\Aceptar.jpg" width="20" height="20">
+        <input type="Image" name="imgCancelar" src="D:\DESARROLLO DE SISTEMAS DE INFORMACION\CODIGOS\Pajina Web\imagenes\cancelar.png" width="20" height="20"><br><br>
+        <input type="CheckBox" name="Guitarra">Acepto los terminos y condiciones
+        <input type="CheckBox" name="Guitarra">Acepto que roben todos mis datos
+        <input type="CheckBox" name="Guitarra">Capcha <br>
+
+        
+    </form>
+</body>
+
+</html>

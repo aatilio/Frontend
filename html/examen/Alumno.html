@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de alumno</title>
+</head>
+
+<body>
+    <h2>REGISTRO DE ALUMNADO</h2>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <form action="pagina1.html" method="post">
+            Ingrese su Nombre:
+            <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su nombre correctamente"
+                size="35"><br><br>
+            Ingrese su Apellido:
+            <input type="text" name="txtApe" id="txtApe" placeholder="Ingrese su apellido correctamente"
+                size="35"><br><br>
+            Ingrese su DNI:
+            <input type="text" name="txtDNI" id="txtDNI" placeholder="Ingrese su numero de DNI" maxlength="8"><br><br>
+            <input type="file" name="adjunto"> <br><br>
+            Correo Electronico
+            <input type="text" name="txtIml" id="txtIml" placeholder="ejemplo@email.com" maxlength="20"><br><br>
+            Ingrese su Edad:
+            <input type="text" name="txtEda" id="txtEda" placeholder="Ingrese su edad" maxlength="2"><br><br>
+
+            <label>Selecciona tu Genero:</label>
+            <select name="genero">
+                <option>Masculino</option>
+                <option>Femenino</option>
+            </select>
+            <br><br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Datos de la Institucion</legend>
+        <br>
+        Nombre de la institucion:
+        <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su nombre de la institucion"
+            size="35"><br><br>
+        carrera profecional:
+        <input type="text" name="txtNom" id="txtNom" placeholder="ejem: carrera" size="35"><br><br>
+        <label>Turno</label><br>
+        <input type="radio" name="Instrumentos" value="dia"> Diurno <br>
+        <input type="radio" name="Instrumentos" value="noche"> Nocturno <br><br>
+        Cemestres cursados: <br>
+        <input type="CheckBox" name="Guitarra">Cemestre I <br>
+        <input type="CheckBox" name="Guitarra">Cemestre II <br>
+        <input type="CheckBox" name="Guitarra">Cemestre III <br>
+    </fieldset>
+    <br><br>
+    <input type="submit" name="btnEnviar" value="Enviar">
+    <input type="reset" name="btnLimpiar" value="Borrar"><br><br><br>
+    <input type="CheckBox" name="Guitarra">Acepto los terminos y condiciones
+    <input type="CheckBox" name="Guitarra">Acepto que roben todos mis datos
+    <input type="CheckBox" name="Guitarra">Capcha <br>
+    </form>
+</body>
+
+</html>

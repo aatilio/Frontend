@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> 4 </title>
+</head>
+
+<BODY>
+    <SCRIPT LANGUAGE="JavaScript">
+        var genero = "", nombre = "", edad = 0;
+        nombre = prompt("Ingrese su nombre: ", 0);
+        genero = prompt("Digite su genero: ", 0);
+        edad = prompt("Ingrese su edad: ", 0);
+        edad = parseInt(edad, 10);
+        if (genero == "Masculino" || genero == "masculino" || genero == "MASCULIO") {
+            if (edad < 6) {
+                document.write("INFANTE <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            } 
+            else if (edad < 9) {
+                document.write("NIÑO(A) <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else if (edad < 12) {
+                document.write("PUBERT <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else if (edad < 18) {
+                document.write("ADOLESCENTE <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else if (edad < 40) {
+                document.write("JOVEN <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else if (edad < 65) {
+                document.write("ADULTO <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else if (edad <= 100) {
+                document.write("ANCIANO(A) <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: MASCULINO");
+            }
+            else{
+                document.write("Datos incorrectos, buelva a dijitar la informacion corectamente <br>");
+            }
+        }
+        else {
+            if (edad < 6) {
+                document.write("INFANTE <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            } 
+            else if (edad < 9) {
+                document.write("NIÑO(A) <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else if (edad < 12) {
+                document.write("PUBERT <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else if (edad < 18) {
+                document.write("ADOLESCENTE <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else if (edad < 40) {
+                document.write("JOVEN <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else if (edad < 65) {
+                document.write("ADULTO <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else if (edad <= 100) {
+                document.write("ANCIANO(A) <br>");
+                document.write("EDAD:"+edad+" <br>");
+                document.write("NOMBRE: " + nombre + "<br>");
+                document.write("GENERO: FEMENINO");
+            }
+            else{
+                document.write("Datos incorrectos, buelva a dijitar la informacion corectamente <br>");
+            }
+        }
+        document.write("<br>" + "Programa terminado");
+    </SCRIPT>
+</BODY>
+
+</html>

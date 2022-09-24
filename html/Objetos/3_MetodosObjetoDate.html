@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> METODOS DATE </title>
+</head>
+
+<BODY>
+    <SCRIPT LANGUAGE="JavaScript">
+
+        document.write(Date());
+
+        let fecha = new Date();
+
+        console.log(fecha.getDate())
+
+        var condicion = prompt("¿Quieres saber la fecha y hora exacta: ");
+
+        if (condicion == " si" || condicion == "Si" || condicion == "SI") {
+            document.write("<br> ", fecha.toLocaleString());
+        }
+        else {
+            document.write("Ingreso NO ", "<br>");
+        }
+    </SCRIPT>
+
+</BODY>
+
+</html>
+
+<!--document.write("<br>fecha: ", fecha.getDate());
+document.write("<br>Dia lunes: ", fecha.getDay());
+document.write("<br>Mes: ", fecha.getMonth());
+document.write("<br>Hora: ", fecha.getHours());
+document.write("<br>Year: ", fecha.getFullYear());
+document.write("<br> ", fecha.toDateString());
+-->

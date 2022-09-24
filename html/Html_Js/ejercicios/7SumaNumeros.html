@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> 7 </title>
+</head>
+
+<BODY>
+    <SCRIPT LANGUAGE="JavaScript">
+        var x, n, suma = 0;
+        n = prompt("'N' primeros nnumeros pares y su suma de los mismos, Dijite 'N':", 0);
+        n = parseInt(n, 10);
+        for (x = 0; x <= n; x++) {
+            if (x % 2 == 0) {
+                document.write(x + "  ");
+                suma = suma + x;
+            }
+
+        }
+        document.write("<br>" + "Sumatoria:" + suma); document.write("<br>" + "Programa terminado");
+    </SCRIPT>
+</BODY>
+
+</html>

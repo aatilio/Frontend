@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> 3 </title>
+</head>
+
+<BODY>
+    <SCRIPT LANGUAGE="JavaScript">
+
+        var i, j, num, nume, vector, numer;
+        num = Number(prompt("cuantos datos quiere almacenar "));
+        var vector = new Array(num);
+        for (i = 1; i <= num; i++) {
+            numer = Number(prompt("ingrese el numero: "));
+            vector[i - 1] = numer;
+        }
+        for (i = 1; i <= num - 1; i++) {
+            for (j = 1; j <= num - 1; j++) {
+                if (vector[j - 1] > vector[j]) {
+                    nume = vector[j - 1];
+                    vector[j - 1] = vector[j];
+                    vector[j] = nume;
+                }
+            }
+        }
+        document.write(" ", '<br>');
+        document.write("vector ordenado de menor a mayor", '<br>');
+        for (i = 1; i <= num; i++) {
+            document.write(" Dato "+i+" es: ", vector[i - 1],"<br>");
+        }
+        document.write(" ", '<br>');
+
+    </SCRIPT>
+</BODY>
+
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciente</title>
+</head>
+
+<body>
+    <h2>DATOS DEL CLIENTE</h2>
+    <fieldset>
+        <legend>Datos Personales</legend>
+        <form action="pagina1.html" method="post">
+            Nombre y apellido:
+            <input type="text" name="txtNom" id="txtNom" placeholder="Ingrese su nombres y apellidos correctamente"
+                size="35"><br><br>
+            Ingrese su DNI:
+            <input type="text" name="txtDNI" id="txtDNI" placeholder="Ingrese su numero de DNI" maxlength="8"><br><br>
+            Telefono:
+            <input type="text" name="txtIml" id="txtIml" placeholder="+00 999999999" maxlength="20"><br><br>
+            Correo Electronico
+            <input type="text" name="txtIml" id="txtIml" placeholder="ejemplo@email.com" maxlength="40"><br><br>
+            Direccion:
+            <input type="text" name="txtNom" id="txtNom" placeholder="Avenida/Calle, M, L " size="35"><br><br>
+    </fieldset>
+    <br><br>
+    <fieldset>
+        <legend>Detalle producotos</legend>
+        <br>
+        Nombre del articulo:
+        <input type="text" name="txtNom" id="txtNom" placeholder="Nombre del articulo" size="35"><br><br>
+        Descripcion del Producto:
+        <textarea name="Comentarios" cols="30" rows="4"></textarea><br><br>
+        <label>Numero de Productos:</label>
+        <select name="EstCivil">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+        </select><br><br>
+    </fieldset>
+    <br><br>
+    <input type="submit" name="btnEnviar" value="Enviar">
+    <input type="reset" name="btnLimpiar" value="Borrar"><br><br><br>
+    <input type="CheckBox" name="Guitarra">Acepto los terminos y condiciones.
+    </form>
+</body>
+
+</html>

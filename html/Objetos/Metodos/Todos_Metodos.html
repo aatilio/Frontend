@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> 2 </title>
+</head>
+
+<BODY>
+    <h1>Metodos</h1>
+    <p>Length(): retorna el número de caracteres</p>
+    <p>Concat(): concatena cadenas</p>
+    <p>toUpperCase(): retorna cadena en mayúscula</p>
+    <p>toLowerCase(): retorna cadena en minúsculas</p>
+    <p>charAt(pos): retorna letra de posición</p>
+    <p>indexOf(caracter): retorna posición de carácter si no hay retorna -1    </p>
+    <p>lastIndexOf(caracter): retorna la última posición de carácter si no hay retorna -1</p>
+    <p>substring(inicio,final): extrae subcadena de otra cadena</p>
+    <p>Split(separador): devuelve un arreglo que contendrá cadenas de texto que serán subcadenas de la variable original, separadas por el caracter separador</p>
+    <br><br>
+    <SCRIPT LANGUAGE="JavaScript">
+
+        var cadena = "Hola Arequipa";
+        var longitud = cadena.length;
+        document.write(" Metodo Lengtc:     " + longitud);
+
+        var txt1 = "Hola Peru";
+        var txt2 = txt1.concat(" y su gente");
+        document.write("<br>" + " Metodo concat:  " + txt2);
+
+        var txt3 = txt2.toUpperCase();
+        document.write("<br>" + " Metodo toUpperCase:     " + txt3);
+
+        var txt4 = txt2.toLowerCase();
+        document.write("<br>" + " Metodo toOwerCase:  " + txt4 );
+
+        var letra = txt4.charAt(5);
+        document.write("<br>" + " Metodo .cahrAt:  " + letra);
+
+        var posi = txt4.indexOf("a");
+        document.write("<br>" + " Metodo .indexOf:  " + posi );
+
+        var posi2 = txt4.latIndexOf("s");
+        document.write("<br>" + " Metodo .laIindexOf:   " + posi2 );
+
+        var cad1 = txt4.substring(2, 4);
+        document.write("<br>" + " Metodo .substring:    " + cad1 );
+
+        var mensaje = "que tengan buen dia siempre";
+        var palabras = mensaje.split(" ");
+        document.write("<br>" + " Metodo .split:    " + palabras );
+
+    </SCRIPT>
+</BODY>
+
+</html>

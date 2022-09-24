@@ -1,0 +1,202 @@
+<html>
+<head>
+<title> Pagina </title>
+</head>
+<body>
+<!-- Dentro de la etiqueta <ol> agregamos la etiqueta <li>, 
+    esta etiqueta <li> me permite crear la cantidad de listas. -->
+        <h2> 1 </h2>
+<ol>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+<li>Elemento 5</li>
+<li>Elemento 6</li>
+</ol>
+<!--  Ahora enumeraremos de varios tipos nuestra 
+    lista, duplicamos nuestra lista y cambiaremos la propiedad type:-->
+<h2> 2-3 Listas Ordenadas </h2>
+<ol type="a">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        </ol>
+
+<ol type="I">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        </ol>
+<ol type="i">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>Elemento 5</li>
+        <li>Elemento 6</li>
+        </ol>
+<!-- Para aplicar un tipo de numeración diferente a un elemento especifico, solo agregamos 
+    dentro de la etiqueta <li> el tipo que deseado. -->
+        <h2> 4</h2>
+        <ol type="i">
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+            <li>Elemento 4</li>
+            <li>Elemento 5</li>
+            <li type="I">Elemento 6</li>
+            </ol>
+<!--Dentro de la etiqueta <ul> agregamos la etiqueta <li>, esta etiqueta <li> 
+    me permite crear la cantidad de listas. -->
+
+    <h2> 5  Listas Desordenadas</h2>
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+<li>Elemento 5</li>
+</ul>
+
+<!-- Para aplicar diferentes tipos de viñetas en nuestras listas desordenadas, por ejemplo, un 
+    cuadrado o un círculo, con la propiedad type podremos realizarlo.-->
+<h2> 6 Listas Desordenadas</h2>
+<ul>
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+<li>Elemento 5</li>
+</ul>
+<ul type="square">
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+<li>Elemento 5</li>
+</ul>
+<ul type="circle">
+<li>Elemento 1</li>
+<li>Elemento 2</li>
+<li>Elemento 3</li>
+<li>Elemento 4</li>
+<li>Elemento 5</li>
+</ul>
+
+<!--Este tipo de listas las utilizamos para dar el formato típico de un diccionario, en el que se presenta un término y a continuación su definición.
+Para ello trabajaremos con las siguientes etiquetas:
+dl: Lista de Definición.
+li: Nos permitirá crear los elementos o ítems de la lista.
+dt: Términos de definición.
+dd: Definición de descripción. -->
+
+<h2> 7 Listas Por Definicion </h2>
+<dl>
+<dt>Ordenada</dt>
+<dd>Cada elemento va procedido por un numero de orden</dd>
+<dt>Desordenada</dt>
+<dd>Cada Elemento va procedido por una viñeta</dd>
+<dt>Por Definicion</dt>
+<dd>Dan formato por definicion </dd>
+</dl>
+
+<!--Se refiere a la creación de una lista dentro de otra lista, para ello crearemos el menú del día de restaurante.
+Combinaremos listas ordenadas y desordenadas para nuestro menú; las ordenadas vendrían a ser todas aquellas que tienen 
+una numeración, por ejemplo, tendremos las “entradas, caldos, segundos, postres”. Mientras que
+las desordenadas vendrían a ser todas aquellas que pertenecen y están dentro de estas listas ordenadas, 
+por ejemplo, en ENTRADAS tendremos “ensalada, tamal, papa rellena, ceviche”, en CALDOS tendremos “Caldo Blanco, 
+Caldo de Gallina, caldo de cabeza”, en SEGUNDOS tendremos “Arroz de Pato, Chicharrones, Ají de Gallina, rocoto 
+relleno” y en POSTRES “Torta, Gelatina, Helado, Queso helado”. -->
+
+<h2> 8 Anidamiento de Listas </h2>
+<h2> Restaurant Don Menon </h2>
+<ol>
+<li>Entradas</li>
+<ul>
+<li>Ensalada</li>
+<li>Tamal</li>
+<li>Papa Rellena </li>
+</ul>
+<li>Caldos</li>
+<ul>
+<li>Caldo Blanco</li>
+<li>Caldo de Gallina</li>
+</ul>
+<li>Segundos</li>
+<ul>
+<li>Arroz de Pato</li>
+<li>Chicharrones</li>
+<li>Aji de Gallina</li>
+</ul>
+<li>Postres</li>
+<ul>
+<li>Torta</li>
+<li>Gelatina</li>
+<li>Helado</li>
+</ul>
+</ol>
+<!--ENLACES EN HTML 
+    Un sitio web es considerado como un conjunto de archivos principalmente por páginas HTML e imágenes que constituyen el contenido de 
+    nuestras páginas web. Sin embargo no podemos hablar de navegación si estos archivos HTML no estarían conectados entre ellos o con 
+    otras páginas web.Un enlace puede ser fácilmente detectado en una página, basta con deslizar el puntero del ratón sobre las imágenes 
+    o el texto y ver cómo cambia su forma original transformándose por regla general en una mano o en un texto señalado.
+
+ENLACES INTERNOS:
+<a>: La etiqueta <a> nos permite crear los enlaces para nuestras páginas.
+href: Nos permite dirigirnos hacia otros enlaces.
+name: Con “name” nos permite señalar el destino donde se enlazo nuestro href.
+<a href=" ">Ir al Texto </a>
+<a name=" ">Texto que ha sido enlazado</a> -->
+<h2> 9 Enlaces internos </h2>
+<a href="#destino">Ir al Texto </a>
+<br><br><br><br><br><br><br><br>
+<a name="destino">Texto que ha sido enlazado</a>
+
+<!-- ENLACES LOCALES:
+Estos enlaces nos permiten dirigir nuestra página hacia otra página, nos sirven para poder navegar entre varias 
+páginas creadas en nuestro sitio.Para crear un enlace local utilizaremos la etiqueta <a> seguida de un href y 
+    entre comillas ponemos el nombre de la página donde queremos ir (la extensión).-->
+
+<h2> 10 Enlaces Locales</h2>
+<a href="pagina1.html">Ir a la pagina1 </a>
+
+
+
+<!--Al momento que hacemos click en “Ir a la pagina1” automáticamente nos redirigirá a nuestra página con nombre 
+pagina1.html que creamos anteriormente. -->
+
+<h2> 11-12</h2>
+
+<h2>Enlaces Locales</h2>
+<a href="pagina1.html">Ir a la pagina1 </a>
+<br>
+<a href="pagina3.html">Ir a la pagina3 </a>
+
+<h2> 13 </h2>
+<!-- ENLACES EXTERNOS
+Estos enlaces nos permiten dirigirnos a otras páginas web de otros sitios web. Este tipo de enlaces
+es muy común y no tiene mucha dificultad, simplemente colocamos 
+en el atributo href la URL de la dirección de la página a la cual deseo enlazar.-->
+<a href="https://www.google.com/">Google </a><br>
+<a href="https://www.youtube.com/">Youtube </a><br>
+<a href="https://www.facebook.com/">Facebook</a><br>
+
+<!-- DESCARGA DE ARCHIVOS USANDO ENLACES
+Para realizar la descarga de archivos mediante enlaces desde nuestra página web debemos tener en cuenta que estos archivos deben estar dentro de la carpeta donde se encuentran guardadas nuestras páginas web.
+Creamos en nuestra carpeta un documento de Word con el nombre “trabajo” y un PowerPoint con el nombre “presentación”.
+Para ser más ordenados, crearemos una nueva carpeta llamada “Documentos” y dentro de ella guardaremos los documentos creados (pagina1.html, pagina2.html, pagina3.html, pagina4.html )
+Crear en la misma carpeta los documentos trabajo.docx, presentación.pptx-->
+
+<h2>14 Enlaces de Descarga</h2>
+<a href="Documentos/trabajo.docx">Descargar Word </a><br>
+<a href="Documentos/presentacion.pptx">Descargar PowerPoint</a>
+<br><br><br><br><br><br><br><br>
+</body>
+</html>

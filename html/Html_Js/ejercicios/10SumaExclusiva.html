@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <Title> 10 </title>
+</head>
+
+<BODY>
+    <SCRIPT LANGUAGE="JavaScript">
+        var n, suma, i, varia;
+        n = prompt("'N', sumas de la serie n(n*2+1); Ingrese 'N': ", 0);
+        n = parseFloat(n, 10);
+        
+        for (i = 1; i < n+1; i++) {
+            varia = i/(i * 2 + 1);
+            suma = suma + varia;
+            sumas = parseFloat(varia);
+            document.write(sumas + " -|- ");
+        }
+        document.write("<br>" +"la suma de los " + n + " primeros terminos de la sucesion es: " + sumas);
+        document.write("<br>" + "Programa terminado");
+    </SCRIPT>
+</BODY>
+
+</html>

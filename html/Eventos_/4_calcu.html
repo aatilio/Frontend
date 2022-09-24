@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <Title> Eventos... </title>
+    <SCRIPT LANGUAGE="JavaScript">
+        function sumar(F) {
+            F.R.value = eval(F.V1.value) + eval(F.V2.value);
+
+        }
+
+        function restar(F) {
+
+            F.R.value = eval(F.V1.value) - eval(F.V2.value);
+        }
+
+        function multiplicar(F) {
+
+            F.R.value = eval(F.V1.value) * eval(F.V2.value);
+        }
+        function dividir(F) {
+
+            F.R.value = eval(F.V1.value) / eval(F.V2.value);
+        }
+    </SCRIPT>
+</head>
+
+<BODY>
+    <FORM NAME="FRMPRINCIPAL">
+        <INPUT TYPE="TEXT" NAME="V1" SIZE=6> <BR>
+        <INPUT TYPE="TEXT" NAME="V2" SIZE=6> <BR>
+        <INPUT TYPE="BUTTON" VALUE="+" onClick="sumar(FRMPRINCIPAL)">
+        <INPUT TYPE="BUTTON" VALUE="-" onClick="restar(FRMPRINCIPAL)">
+        <INPUT TYPE="BUTTON" VALUE="*" onClick="multiplicar(FRMPRINCIPAL)">
+        <INPUT TYPE="BUTTON" VALUE="/" onClick="dividir(FRMPRINCIPAL)"> <br>
+        <INPUT TYPE="TEXT" NAME="R" SIZE=10>
+    </FORM>
+</BODY>
+
+</html>

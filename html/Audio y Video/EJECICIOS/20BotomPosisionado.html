@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Reproductor de video</title>
+</head>
+
+<body>
+    <div style="text-align: center">
+        <button onclick="playPause()">Play Pause</button>
+        <button onclick="makeBig()">Grande</button>
+        <button onclick="makeSmali()">Pequeño</button>
+        <button onclick="makeNormal()">Normal</button>
+        <br>
+        <video id="video1" width="420">
+            <source
+                src="D:\DESARROLLO DE SISTEMAS DE INFORMACION\CODIGOS\Pajina Web\Video\Firestone - Kygo ft. Conrad__ español(480P).mp4"
+                type="video/mp4">
+            <source
+                src="D:\DESARROLLO DE SISTEMAS DE INFORMACION\CODIGOS\Pajina Web\Video\Llegale - Lunay X Zion Y Lennox ( Video Oficial )(720P_HD).mp4"
+                type="video/ogg">
+        </video>
+    </div>
+    <script>
+        var miVideo = document.getElementById("video1");
+        function playPause() {
+            if (miVideo.paused)
+                miVideo.play();
+            else
+                miVideo.paused;
+        }
+        function makeBig() {
+            miVideo.width = 560;
+        }
+        function makeSmali() {
+            miVideo.width = 320;
+        }
+        function makeNormal() {
+            miVideo.width = 420;
+        }
+    </script>
+</body>
+
+</html>
