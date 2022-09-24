@@ -1,0 +1,19 @@
+* {
+    margin: 0px;
+}
+
+p:nth-child(1) {
+    background: #b3af48;
+}
+
+p:nth-child(2) {
+    background: #54a54d;
+}
+
+p:nth-child(3) {
+    background: #487b9f;
+}
+
+p:nth-child(4) {
+    background: #924d9f;
+}
